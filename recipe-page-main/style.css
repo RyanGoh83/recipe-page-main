@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-size: 15px;
+  color: hsl(0, 2%, 34%);
+}
+
+.container {
+  width: 40%;
+  margin: 110px auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.dish-pic {
+  width: 100%;
+  border-radius: 10px;
+}
