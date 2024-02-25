@@ -11,6 +11,21 @@ body {
   color: hsl(0, 2%, 34%);
 }
 
+h1 {
+  color: black;
+  font-weight: bold;
+}
+
+h2 {
+  color: darkgoldenrod;
+  font-weight: bold;
+}
+
+h3 {
+  color: darkred;
+  font-weight: bold;
+}
+
 .container {
   width: 40%;
   margin: 110px auto;
@@ -19,7 +34,32 @@ body {
   border-radius: 20px;
 }
 
+div {
+  margin: 5px;
+  padding: 5px;
+}
+
+li {
+  padding: 3px;
+  list-style-position: inside;
+}
+
+.instruction-step {
+  margin-left: 15px;
+  padding: 3px;
+  list-style-position: outside;
+  text-align: justify;
+}
+
 .dish-pic {
   width: 100%;
+  border-radius: 10px;
+}
+
+.content-container {
+  padding: 5px;
+}
+#prep-time {
+  background-color: lightpink;
   border-radius: 10px;
 }
